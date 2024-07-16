@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    .nav-section{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-text-container{
+        width: 100%;
+        order: 2;
+    }
+    .banner-text-container h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .banner-text-container p{
+        font-size: 40px;
+    }
+    .banner-img-container{
+        width: 100%;
+        order: 1;
+    }
+}
